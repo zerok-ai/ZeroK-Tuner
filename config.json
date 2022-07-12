@@ -1,7 +1,0 @@
-{
-    "cpus": 1.5,
-    "memory": 1.1,
-    "ulimit_nproc": 2664,
-    "ulimit_nofile": 12699,
-    "NUM_CPUS": 1
-}

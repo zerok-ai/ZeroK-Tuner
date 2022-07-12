@@ -24,7 +24,7 @@ def objective(trial):
     return summary_object.get('avg')
 
 study = optuna.create_study(sampler=optuna.samplers.TPESampler())
-study.optimize(objective, n_trials=50)
+study.optimize(objective, n_trials=10)
 
 best_params = study.best_params
 print(best_params)
